@@ -1,11 +1,11 @@
 import geopandas as gpd
-# import locale
+import locale
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-# locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
 st.set_page_config(page_title = 'Evolução de Assinaturas Ativas', layout = 'wide')
+locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
 
 df = pd.read_csv('sources/results.csv')
 df['Mês'] = pd.to_datetime(df['month'], format = '%Y%m').dt.strftime('%B/%Y').str.capitalize()
