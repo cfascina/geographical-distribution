@@ -15,6 +15,7 @@ et_xmlfile==2.0.0
 Flask==3.1.0
 frozenlist==1.7.0
 functions-framework==3.8.2
+geopandas==1.1.1
 google-api-core==2.24.2
 google-auth==2.38.0
 google-auth-oauthlib==1.2.1
@@ -44,11 +45,14 @@ protobuf==5.29.3
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
 PyJWT==2.10.1
+pyogrio==0.11.1
+pyproj==3.7.2
 python-dateutil==2.9.0.post0
 pytz==2025.2
 requests==2.32.3
 requests-oauthlib==2.0.0
 rsa==4.9
+shapely==2.1.2
 six==1.17.0
 twilio==9.6.5
 typing_extensions==4.14.1
