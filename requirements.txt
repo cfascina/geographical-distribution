@@ -34,11 +34,15 @@ itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.2
 multidict==6.6.3
+narwhals==2.5.0
 numpy==2.2.4
 oauthlib==3.2.2
 openpyxl==3.1.5
 packaging==24.2
 pandas==2.2.3
+patsy==1.0.1
+plotly==6.3.0
+plotly-express==0.4.1
 propcache==0.3.2
 proto-plus==1.26.1
 protobuf==5.29.3
@@ -52,8 +56,10 @@ pytz==2025.2
 requests==2.32.3
 requests-oauthlib==2.0.0
 rsa==4.9
+scipy==1.16.2
 shapely==2.1.2
 six==1.17.0
+statsmodels==0.14.5
 twilio==9.6.5
 typing_extensions==4.14.1
 tzdata==2025.2
