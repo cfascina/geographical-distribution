@@ -1,3 +1,6 @@
 **/.venv/
 **/__pycache__/
+
+sources/ibge/BR_UF_2024/*
+sources/basemap.geojson
 .env.example
