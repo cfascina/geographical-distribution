@@ -1,10 +1,10 @@
 import geopandas as gpd
-import locale
+# import locale
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
+# locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
 st.set_page_config(page_title = 'Evolução de Assinaturas Ativas', layout = 'wide')
 
 df = pd.read_csv('sources/results.csv')
